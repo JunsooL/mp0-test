@@ -42,4 +42,9 @@ h3 {
     border: 1px solid black;
     outline: 20px solid white;
     outline-offset: 1px;
+    width: 800px;
+    height: 500px;
+
+    place-self: center;
+    
 }
