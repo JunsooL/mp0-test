@@ -1,1 +1,45 @@
 /* Your CSS here. */
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 9px;
+}
+
+a {
+    font-size: large;
+}
+
+body {
+   background-color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+    text-align: center;
+}
+h3 {
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    outline: 20px solid white;
+    outline-offset: 1px;
+}
